@@ -312,7 +312,7 @@ async def permission_error(interaction: discord.Interaction, error):
         await interaction.response.send_message("❌ ما عندك صلاحية!", ephemeral=True)
 
 
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("MTQ4MzYyNTI1NDAzODI3NDIxMQ.GnLWkz.-k1SlBPPeB_c07ogakqD4-coLvGmyRRLnw-t1Q")
 if not TOKEN:
     print("❌ خطأ: ما لقيت DISCORD_TOKEN في متغيرات البيئة!")
     exit(1)
